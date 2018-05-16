@@ -33,11 +33,11 @@ func main(){
     }
     num_gophers, err := strconv.Atoi(os.Args[1])
     if err != nil {
-        panic(fmt.Sprintf("%s isn't and integer", os.Args[1]))
+        panic(fmt.Sprintf("%s isn't an integer", os.Args[1]))
     }
     num_points, err := strconv.Atoi(os.Args[2])
     if err != nil {
-        panic(fmt.Sprintf("%s isn't and integer", os.Args[1]))
+        panic(fmt.Sprintf("%s isn't an integer", os.Args[2]))
     }
 
     /* Create go routines */
